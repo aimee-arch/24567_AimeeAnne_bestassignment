@@ -57,6 +57,7 @@ This level is used for the most severe errors that lead to the termination of th
 setting up a logger in java can be done using log4j,java.util.logging, SLF4J  and logback
 Here is an example of java.util.logging:
 
+
 import java.util.logging.Logger;
 import java.util.logging.Level;
 import java.util.logging.ConsoleHandler;
@@ -65,9 +66,7 @@ import java.util.logging.SimpleFormatter;
 import java.util.logging.Handler;
 import java.util.logging.LogManager;
 public class LoggerExample {
-
-    // Create a Logger instance
-    private static final Logger logger = Logger.getLogger(LoggerExample.class.getName());
+ private static final Logger logger = Logger.getLogger(LoggerExample.class.getName());
 
     public static void main(String[] args) {
         try {
